@@ -1,0 +1,133 @@
+:root {
+    min-height: 100vh;
+    
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+    margin: 1px;
+    
+
+}
+
+.page-container {
+    margin-bottom: 70px;
+}
+
+/* banner img*/
+
+.banner {
+display: flex;
+flex-direction: column;
+height: 100%;
+
+}
+
+.containerbn {
+  position: relative;
+  text-align: center;
+  color: rgba(221, 211, 211, 0.896);
+  opacity: 0.85;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 39px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: rgba(29, 9, 9, 0.668);
+}
+
+.headline h1 {
+    text-align: center;
+    border: 5px transparent black;
+    padding: 100px;
+    border-top: 5px solid rgb(29, 5, 5);
+    border-bottom: 5px solid red;
+    border-radius: 70px;
+    
+
+}
+
+
+/*Contact form */
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.containerContact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-top: 8px solid rgba(84, 23, 23, 0.098);
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.column iframe {
+  width: 100%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear:both ;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

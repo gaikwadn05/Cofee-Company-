@@ -1,0 +1,151 @@
+nav {
+    position: relative;
+    background-color: #f2f2f2;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.9;
+    
+}
+
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+nav .logo .title {
+
+    color: #3a1313;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+nav ul li {
+    color: white;
+    padding: 20px 30px;
+
+
+}
+
+nav ul li.active {
+    /* background-color: rgb(224, 202, 202);
+    border-radius: 20%; */
+    font-weight: bolder;
+
+}
+nav ul li a {
+    display: block;
+    padding: 3px 5px;
+    text-decoration: none;
+    color: #3a1313;
+    font-size: large;
+}
+
+nav ul li:hover {
+    /* background-color: rgb(224, 202, 202);
+    border-radius: 20%; */
+    font-weight: bolder;
+    
+}
+
+
+/* Navbar */
+
+.dropbtn {
+    /* background-color: rgb(224, 202, 202); */
+    color: #3a1313;
+    padding:1px 0 0r 0 px;
+   font-size: large;
+    border: none;
+
+    
+  }
+  
+ 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  
+  .dropdown:hover .dropdown-content {display: block;
+background-color:  rgb(224, 202, 202);
+
+}
+  
+  .dropdown:hover .dropbtn {
+   border-radius: 10px;
+ font-weight: bolder;}
+
+
+  /*footer*/
+
+  .footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #3a13137c;
+    color: rgb(243, 236, 236);
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+@media all and (max-width:600px)
+{
+    
+    nav .logo .title {
+        font-size: 18px;
+        padding-left: 8px;
+   
+    }
+
+
+
+
+}
+
+
+@media all and (max-width:800px) and (min-width:601px)
+{
+    
+
+
+}

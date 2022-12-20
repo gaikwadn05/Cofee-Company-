@@ -1,0 +1,163 @@
+:root {
+    min-height: 100vh;
+    
+    background-color: #ffffff;
+    margin: 0 auto;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body {
+    margin: 1px;
+
+
+}
+
+.page-container {
+    margin-bottom: 70px;
+    background-color:rgb(247, 245, 243);
+    opacity: 0.85;
+}
+
+/* banner img*/
+
+.banner {
+display: flex;
+flex-direction: column;
+height: 100%;
+opacity: 0.;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity: 0.94
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  font-size: 24px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: rgb(241, 235, 235);
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 39px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: black;
+}
+
+
+
+
+/* cart items */
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.project {
+  flex-basis:325px; 
+   box-sizing: border-box;
+   padding: 5px ;
+   margin: 50px;
+   border: 3px solid #d3d3d37b;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.project h4 {
+  font-size: 20px;
+  padding: 12px;
+  margin: 6px;
+  border-top: 1px solid #ddd;
+border-bottom:1px solid #ddd ;
+
+}
+
+
+.project p {
+  
+  padding: 0px 12px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.5 ease-in-out;
+}
+
+.project img:hover {
+  transform: scale(0.95);
+}
+
+.project  button {
+background-color: #a14759;
+color: white;
+padding: 10px 50px 10px 34px ;
+border: none;
+border-radius: 4px;
+width: 50%;
+font-size: 14px; 
+margin: 5px;
+
+}
+
+.buyButtonDiv{
+   font-size: 20px;
+  float: right;
+  border-top: 2px #e7101031 solid;
+  border-bottom: 2px #e7101031 solid;
+border-radius: 20px;
+background-color: rgba(164, 101, 19, 0.078);
+}
+
+.buyButtonDiv span {
+  padding-right: 20px;
+}
+
+
+
+.project button:hover{
+  background-color: #45a849;
+  
+}
+
+.checked {
+  color: orange;
+}
+
+.rating {
+  padding-left: 10px;
+  display: inline-flex;
+  
+}
